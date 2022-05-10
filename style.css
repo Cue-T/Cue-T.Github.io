@@ -1,0 +1,188 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+main{
+  display: flex;
+  height: 100vh;
+}
+
+.fixed{
+  background-image: url(https://lh3.googleusercontent.com/oCEHE4RyWvLMVSYj_cQgvrxnae1V14zgxXq1Z9CdFmxKeaqM4GDuvXinowZ825q99nD1QG-mOU3PmYhNuZPde7stNe1Ap1wik0P2TZOgPonPwOaRoUcCP9kzlAqRteRsds9LUBSSqkkJ_kk3Jm-LftKN4mtLCSMeENL68QagS2ckuPx_bDvSEo02f3J1A2ez_UMu-TmMFbMBnb4x5M2WqAOG7YTPN4DSx-JxYye9RJi9M1REDU03JLPOBpmPbSPEwcdJWPgmgMeZjTeFljAVNgz-paYCaCujs0afFgcLRbNitXvbDTMWDNtLxeivmUfRwBfYt1d36tIPloZRnzIsREq7d7Jby17dg-4RxFZyD6FyS5YF52mx6XRr2qx8XVyX4HfhLO3FMD7aIMVZGzPeWmEZiUDjkpbyO-RNt6GqKTUOGIkBvrVSsNGG73PIAJNEtfcrwjnK5ifSCfFblhU9K6CD7bqvA4mGWTU-Z3ObQuiB2LLmxRzALC5BIooZNvTztCkkRQ6SeGFjHU26j4OjqgPtdgtvSCN66Xwxxoy4qusZcM16I1m2-WGZSc5R3Prf5RshFFDCUOcEFSoIxg5SV_OUapA8RnRGPfhZTGzchpMvhzwlFNmXEjsYkBvkBcvX6wA5cL5QQohUVeNiJEqtL9v0B5JUJtxEKpzMj_6OMcvf6Eh5a7m2mNAxHHwKFBUhqbqGqWZEb5qBDEFuVX-7lf0DdFhO5UVYMHNAHIFz92TFZS0aEGGZtIra8Q=w623-h933-no?authuser=0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex: 0 0 40%;
+}
+
+.content{
+  box-sizing: border-box;
+  overflow-y: auto;
+  flex: 0 0 60%;
+}
+
+header{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  padding: 12px 32px;
+}
+
+.row-p{
+  display: flex;
+/*  flex-wrap: wrap; */
+}
+
+.resume{
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /*display: inline-block;*/
+  font-size: 12px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.resume a{
+  text-decoration: none;
+  color: black;
+}
+
+.resume:hover{
+  background-color: #aaa;
+}
+
+.resume2{
+  border: none;
+  padding: 12px 22px;
+  text-align: center;
+  text-decoration: none;
+  /*display: inline-block;*/
+  font-size: 10px;
+  background-color: #ddd;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.resume2 a{
+  text-decoration: none;
+  color: black;
+}
+
+.resume2:hover{
+  background-color: #aaa;
+}
+
+h2{
+  padding: 0px 18px;
+}
+
+hr{
+  width: 95%;
+  border: .4px solid #ddd;
+}
+
+.spacer{
+  margin-top: 80px;
+}
+
+.column-p{
+  flex: 50%;
+  padding: 0px 8px;
+}
+
+.column-p img{
+  width: 100%;
+}
+
+.about{
+  padding: 12px 32px;
+}
+
+.skills{
+  margin-top: 50px;
+}
+
+.skills p{
+  letter-spacing: 4px;
+  margin-left: 20px;
+}
+
+.photo, .webdev, .asuite{
+  margin-top: 40px;
+}
+
+
+.photoskill, .webskill, .adobeskill{
+  margin-left: 50px;
+  background-color: rgb(222,222,222);
+  width: 80%;
+  border-radius: 3px;
+}
+
+.photobar{
+  background-color: grey;
+  padding: 1%;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 3px;
+  width: 15%;
+  color: white;
+}
+
+.webbar{
+  background-color: grey;
+  padding: 1%;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 3px;
+  width: 85%;
+  color: white;
+}
+
+.adobebar{
+  background-color: grey;
+  padding: 1%;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 3px;
+  width: 70%;
+  color: white;
+}
+
+.accolades{
+/*   border-radius: 6px; */
+  display: flex;
+  width: 80%;
+  background-color: #aaa;
+  height: 80px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.accolades p{
+  border-right: 1px solid #000;
+  color: white;
+  line-height: 25px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.accolades p:last-child{
+  border-right: none;
+}
